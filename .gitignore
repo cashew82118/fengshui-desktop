@@ -1,0 +1,33 @@
+# 运行时数据：可能含真实桌面文件名，绝不提交
+data/
+exports/
+reports/
+release/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本项目的 AI 协作目录（工作记录，不随源码发布）
+.workbuddy/
+agents.md
+AGENTS.md
+
+# 发布包不带批处理脚本（各人解释器路径不同，写死会双击闪退）
+*.bat
+
+# 测试/截图临时产物
+_*.bmp
+_*.png
+*.exe

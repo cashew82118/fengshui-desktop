@@ -1,0 +1,4 @@
+# 主程序：仅用标准库（tkinter 随 Python 安装），无需安装任何依赖。
+# 以下仅供 tools/ 下的辅助脚本使用，可按需安装。
+Pillow>=10.0        # tools/_shot.py 截图（把窗口渲染成 BMP 供核对排版）
+pyinstaller>=6.0    # 打包单文件 exe（可选）
